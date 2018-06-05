@@ -1,0 +1,18 @@
+@import "../../../angular-bootstrap-md/scss/bootstrap/bootstrap-grid.scss";
+
+$main-color: #FFC247;
+
+.my-nav {
+  background-color: $main-color;
+}
+
+.text-box {
+  background-color: $main-color;
+}
+
+
+@include media-breakpoint-down(sm) {
+  .text-box {
+    margin-top: 13%;
+  }
+}

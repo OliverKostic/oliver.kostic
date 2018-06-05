@@ -1,0 +1,64 @@
+<div class="container-fluid" style="height: 100%">
+
+  <div class="row">
+    <div class="col">
+      <div class="language-box animated fadeIn mt-3">
+        <img class="flag" src="/assets/images/england.png" (click)="setLanguage('en')"
+             [ngClass]="('en' === translate.currentLang) ? '' : 'inactive_language'">
+        <img class="flag" src="/assets/images/slovakia.png" (click)="setLanguage('sk')"
+             [ngClass]="('sk' === translate.currentLang) ? '' : 'inactive_language'">
+      </div>
+    </div>
+  </div>
+
+  <div class="tiles" >
+
+    <div class="name">
+        Oliver Kostič
+    </div>
+
+    <div class="row clear">
+      <div class="col-sm-6 mb-3">
+        <div (click)="gotoTile('/bio');" class="card paper tile1" >
+          <div class="tile-body">
+            <img src="/assets/images/pin.png" class="pin">
+            <h3 class="tile-title">{{ 'BIO.TITLE' | translate }}</h3>
+            <h5>{{ 'BIO.INTRO' | translate }}</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 mb-3">
+        <div (click)="gotoTile('/hobby');" class="card paper tile2">
+          <div class="tile-body">
+            <img src="/assets/images/pin.png" class="pin">
+            <h4 class="tile-title">{{ 'HOBBY.TITLE' | translate }}</h4>
+            <h5>{{ 'HOBBY.INTRO' | translate }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row clear">
+      <div class="col-sm-6 mb-3">
+        <div (click)="gotoTile('/appinfo');" class="card paper tile3">
+          <div class="tile-body">
+            <img src="/assets/images/pin.png" class="pin">
+            <h4 class="tile-title">{{ 'APP.TITLE' | translate }}</h4>
+            <h5>{{ 'APP.INTRO' | translate }}</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 mb-3">
+        <div (click)="gotoTile('/contact');" class="card paper tile4">
+          <div class="tile-body">
+            <img src="/assets/images/pin.png" class="pin">
+            <h4 class="tile-title">{{ 'CONTACT.TITLE' | translate }}</h4>
+            <h5>{{ 'CONTACT.INTRO' | translate }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
