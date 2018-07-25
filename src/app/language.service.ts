@@ -11,7 +11,7 @@ export class LanguageService {
 
   getTranslateService(): TranslateService {
     if (!this.translate.getDefaultLang()) {
-      this.translate.addLangs(['sk', 'en']);
+      this.translate.addLangs(['sk', 'en', 'de']);
       this.translate.setDefaultLang('sk');
       const savedLang = localStorage.getItem('language');
       if (savedLang) {

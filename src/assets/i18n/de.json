@@ -1,0 +1,25 @@
+{
+  "HOME": {
+    "SELECT": "Sprachwechsel"
+  },
+  "BIO": {
+    "TITLE": "BIO",
+    "INTRO": "Über mich",
+    "TEXT": "Meine Name ist Oliver Kostič, ich komme aus Bratislava und interessiere mich schon länger für Webentwicklung. Ich habe gerade die Gymnasium abgeschlossen und suche nach einem Projekt, an dem ich meine Fähigkeiten verbessern könnte. Ich bin ein kreativer Typ, da sind immer ein paar Ideen in meinem Kopf. Ich bin in der Lage alleine zu arbeiten, aber ich arbeite gerne im Team. Ich bin freundlich und es ist leicht mit mir zusammenarbeiten."
+  },
+  "HOBBY": {
+    "TITLE": "HOBBY",
+    "INTRO": "Mein Hobby",
+    "TEXT": "In meiner Freizeit spiele ich die Gitarre. Ich mag es, meine eigenen Songs zu machen, ich mag die Idee, dass man etwas nach seinen Vorstellungen machen kann. Ich spiele jeden Tag, ich denke regelmäßiges Training ist in jedem Interesse wichtig. "
+  },
+  "APP": {
+    "TITLE": "APP",
+    "INTRO": "Über dieser App",
+    "TEXT": "Die Seite wurde in Angular 6, TypeScripte erstellt, für CSS verwendete ich Sass und MDBootstrap. Ich habe sie in JetBrains IntelliJ entwickelt und läuft in Heroku Cloud. Es ist vollständig für kleinere Geräte angepasst (versuchen Sie es auf dem Handy zu öffnen). <br> <br> Source code: <a style = 'display: inline' href = 'https: //github.com/OliverKostic/oliver .costic 'target =' _ blank '> GitHub </a>"
+  },
+  "CONTACT": {
+    "TITLE": "KONTAKT",
+    "INTRO": "Wie Sie mich kontaktieren können",
+    "TEXT": "Sie können mich per Mail kontaktieren: <br> oliver.kostic11@gmail.com <br> Oder per Telefon: 0911 760 588"
+  }
+}
